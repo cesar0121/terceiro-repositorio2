@@ -56,3 +56,9 @@ function geraSenha() {
     }
     campoSenha.value = senha; 
 }
+function classificasenha () {
+  forcaSenha.classlist.remove('fraca',  'media', 'forte');
+  if (tamanhoSenha>ll){
+    forcaSenha.classlist.add('forte');
+  } else if ('tamanh')
+}
